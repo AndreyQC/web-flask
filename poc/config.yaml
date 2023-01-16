@@ -1,0 +1,16 @@
+appName: WEBFLASK
+logLevel: WARN
+authors:
+  - Andrey Potapov
+  - Miroslav Potapov
+
+databases:
+  postgres:
+    host: rc1a-lsohunqdlnlwpe3j.mdb.yandexcloud.net
+    port: 6432
+    sslmode: verify-full
+    dbname: object-universe
+    user: andreyqc
+    username: user
+    target_session_attrs: read-write    
+    password: WEB_FLASK_POSTGRES_DB_PWD
