@@ -62,3 +62,4 @@ if __name__ == '__main__':
 
 # $env:AZURE_RESOURCE_GROUP = 'MyTestResourceGroup'
 # https://www.tutorialspoint.com/how-to-set-environment-variables-using-powershell
+#[System.Environment]::SetEnvironmentVariable('WEB_FLASK_POSTGRES_DB_PWD','')
